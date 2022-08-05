@@ -1,5 +1,11 @@
-import {_adapters} from 'chart.js-v3';
-import {DateTime} from 'luxon';
+/*!
+ * chartjs-adapter-luxon v1.2.0
+ * https://www.chartjs.org
+ * (c) 2022 chartjs-adapter-luxon Contributors
+ * Released under the MIT license
+ */
+import { _adapters } from 'chart.js-v3';
+import { DateTime } from 'luxon';
 
 const FORMATS = {
   datetime: DateTime.DATETIME_MED_WITH_SECONDS,
